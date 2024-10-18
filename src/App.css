@@ -1,0 +1,72 @@
+*{
+    overflow: hidden;
+    /* color:  white; */
+}
+  
+  .app {
+    transition: background 0.5s ease;
+  
+  }
+  
+  .rainy {
+    background: url('./assets/rain.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+  }
+  
+  
+.sunny {
+    background: url('./assets/sun.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+  }
+  
+  .cold {
+    background: url('./assets/cold.png') ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+  }
+  
+ 
+  
+  .search input {
+    /* padding: 10px; */
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 4px 0px 0px 4px ;
+    color: rgb(255, 255, 255);
+    outline: none;
+
+  }
+
+  .search input::placeholder {  
+    color: white; 
+    opacity: 1; 
+}  
+
+.overpass-text {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight : 700;
+    font-style: normal;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+
+
+  }
+  
+  #any{
+    background-repeat: no-repeat;
+    background-size: cover; /* This ensures the background covers the entire screen */
+ 
+  }
+  #toastc{
+    color: red;
+  }
